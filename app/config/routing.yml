@@ -1,0 +1,3 @@
+dream_web:
+    resource: "@DreamWebBundle/Resources/config/routing.yml"
+    prefix:   /

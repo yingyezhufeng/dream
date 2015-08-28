@@ -1,3 +1,10 @@
+dream_user:
+    resource: "@DreamUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
 dream_web:
     resource: "@DreamWebBundle/Resources/config/routing.yml"
     prefix:   /
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

@@ -17,4 +17,9 @@ class DefaultController extends Controller
             'form' => $form->createView(),
         ));
     }
+
+    public function loginAction(Request $request)
+    {
+    	
+    }
 }

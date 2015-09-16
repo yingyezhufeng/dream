@@ -9,7 +9,8 @@ class UsernameType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('username', 'text', array('label' => '新昵称'));
+        $builder->add('username', 'text', array('label' => '昵称'))
+                ->add('save', 'submit', array('label' => '提交'));
         
     }
 
